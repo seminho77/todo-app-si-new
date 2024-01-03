@@ -20,7 +20,7 @@ spec:
         image: seminho77/todo-app-si-new:latest
         ports:
         - containerPort: 3000
-          name: todo-app-si-new
+          name: todo-app-si-newgit
         env:
           - name: BASE_PATH
             valueFrom:
