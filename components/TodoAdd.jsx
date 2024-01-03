@@ -11,10 +11,16 @@ export default function TodoAdd (props) {
         <Grid container>
                 <Grid  md={11} item style={{ paddingRight: 16 }}>
                     <TextField
+                        variant="filled"
+                        color="text.primary"
                         placeholder="Add Todo here"
                         value={inputValue}
                         onChange={v => setInputValue(v.target.value)}
-                        fullWidth                 
+                        fullWidth
+                        sx={{
+                            borderColor: 'second.main',
+                            bgcolor: 'primary.main'
+                        }}
                     />
                 </Grid>
                 <Grid  md={1} item>

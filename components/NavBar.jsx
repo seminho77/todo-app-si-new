@@ -49,7 +49,7 @@ export default function NavBar () {
                   
                 </Menu> 
                 <Typography variant="h6">
-                TODO App
+                TODO App of Semi Irhuesogie
               </Typography>
             </Toolbar>
           </AppBar>

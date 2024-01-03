@@ -1,6 +1,6 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: todo-app
+  name: todo-app-si
   labels:
-    name: todo-app-99
+    name: todo-app-si
